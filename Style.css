@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Background*/
+body {
+    background-image: url(./Assets/1148758\ copy.jpg);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+/*Heading*/
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 a {text-decoration: none;
+    color: #ffffff;
+
+}
+
+/*Registration Box*/
+.Register {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+}
+
+ul {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    color: #ffffff;
+    padding: 25px;
+    font-size: medium;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ #agree {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 0.8em;
+     margin: 10px;
+     padding: 10px;
+     color: #ffffff;
+ }
+
+ #agree a {
+     color: #ffffff;
+     text-decoration: none;
+}
+
+#agree a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+/*Button*/
+button {
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px;
+    background: #ffffff;
+    border: groove;
+    border-radius: 5px;
+}
+
+#reg {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*Login*/
+p {
+    color: #ffffff;
+}
+
+p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
