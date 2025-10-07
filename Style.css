@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background settings */
+body {
+    background: url(./Assets/546083.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login box */
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    width: 350px;
+    color: white;
+}
+
+/* Headings */
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Form inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+    outline: none;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Checkbox and Forgot Password */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.check label {
+    cursor: pointer;
+}
+
+.check a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.check a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/*Buton*/
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button :hover {
+    background: lightgray;
+}
+
+/*Register*/
+p {
+    margin-top: 10px;
+}
+
+p a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
